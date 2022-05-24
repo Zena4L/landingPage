@@ -1,0 +1,49 @@
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 2rem;
+  background-color: $colorWhite;
+}
+.cta{
+  height: 60vh;
+  background-color: $colorWhite;
+  position: relative;
+}
+.activity{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+.grow{
+  background-image: url(/huddle-landing-page-with-curved-sections-master/images/bg-section-top-mobile-2.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  display: flex;
+  flex-direction: column;
+  z-index: -1;
+}
+.flow{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10rem;
+}
+.user{
+  background-image: url(/huddle-landing-page-with-curved-sections-master/images/bg-section-top-mobile-1.svg);
+  background-position: top;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10rem;
+}
+.footer{
+  background-image: url(/huddle-landing-page-with-curved-sections-master/images/bg-footer-top-mobile.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  
+ 
+}
+
